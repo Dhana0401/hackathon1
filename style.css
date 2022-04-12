@@ -1,0 +1,120 @@
+.output {
+    background-color: black(0, 0, 0);
+    border-radius: 10px;
+    width: 18rem;
+    position: relative;
+    left: 25px;
+    top: 80px;
+    height: 150px;
+    display: -moz-box;
+    box-shadow: whitesmoke(0, 0, 0, 0.4) 3px 40px 60px;
+    color: greenyellow;
+
+}
+
+.head{
+    background-image: linear-gradient(to left top, #67bdbd, #1a69ae, #887777, #cc5252, #a61e1e);
+    width: 80%;
+    padding: 10px;
+    text-align: ;
+    font-family: font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: xx-large;
+    text-shadow: 2px 5px 5px black;
+
+   
+}
+input#inp{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    height: 38px;
+    width: 16rem;
+    position: relative;
+    top: 8rem;
+    left: 2px;
+    color: rgb(214, 211, 0);
+ 
+}
+
+.search {
+   
+    position: relative;
+    top: 179px;
+    right: 35px;
+    display: flex;
+    flex-direction: column;
+    text-align:match-parent;
+    padding: 8px;
+}
+.clear {
+    position: relative;
+    top: 138px;
+    right: -50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 8px;
+    width: 66px;
+    margin-left: 0px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.green > p {
+    position: relative;
+    top: 10px;
+    left: 18px;
+    color: yellow;
+    font-size: large;
+    font-weight: 500;
+
+}
+.body{
+
+   
+    background-image: linear-gradient(to right bottom, #c70009, #db003a, #db0073, #b700b8, #000cff); background-repeat: no-repeat;
+ height: 186vh;
+}
+h2{
+    color: whitesmoke;
+    text-shadow: 2px 5px 5px yellow;
+    position: relative;
+    top: 69px;
+
+}
+h3{
+    color: yellow;
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 0px; 
+  animation: blinker 1s linear infinite;
+
+
+}
+
+    
+@keyframes blinker {
+    80% {
+  
+    background-color:  rgb(19, 17, 18);
+    border: 13px solid rgb(22, 18, 18);
+    }
+}
+@keyframes blinker {
+    50%{
+        background-color: blanchedalmond;
+    }
+}
+.black{
+    animation: blinker 1s linear infinite;
+    height: 150px;
+    border-radius: 3px;
+
+}
